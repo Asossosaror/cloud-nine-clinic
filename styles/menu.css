@@ -1,0 +1,52 @@
+.menu-container {
+    height: 100vh;
+    position:absolute;
+    width:100%;
+    top:0;
+    bottom:0;
+    margin:0;
+    padding:0;
+    transition:all 0.3s ease-in-out;
+    opacity:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    opacity:1;
+    visibility:visible;
+}
+
+.menu-options {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    max-width:800px;
+    height:300px;
+    padding:48px;
+}
+
+@media (min-width: 768px) {
+    .menu-options {
+        width:100%;
+        flex-direction:row;
+        justify-content:space-evenly;
+        flex:1;
+    }
+}
+
+.menu-options > .opt {
+    padding:8px;
+    color:#d6cdcb;
+    font-size:28px;
+    cursor:pointer;
+    font-family:Felix,sans-serif;
+    font-weight:bold;
+    transition:0.1s ease-in-out scale;
+    text-decoration:none;
+    text-align:center;
+}
+
+.menu-options > .opt:hover{
+    scale:1.1;
+}

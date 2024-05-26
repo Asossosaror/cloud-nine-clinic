@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'Niceday';
-    src: url('/static/fonts/niceday-font.woff2') format('woff2');
+    src: url('../static/fonts/niceday-font.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('/static/fonts/roboto-regular-webfont.woff') format('woff');
+    src: url('../static/fonts/roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Felix';
-    src: url('/static/fonts/felix_titling_regular-webfont.woff2') format('woff2');
+    src: url('../static/fonts/felix_titling_regular-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }

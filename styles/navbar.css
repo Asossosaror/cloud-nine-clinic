@@ -1,0 +1,48 @@
+header {
+    width:100%;
+    color:#D6CDCB;
+    -webkit-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+    position:absolute;
+    top:0;
+    position:fixed;
+    padding:8px 16px;
+    box-sizing:border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:100;
+    font-family:'Felix', sans-serif;
+}
+
+.navbar-logo {
+    width: fit-content;
+}
+
+.navbar-logo > .cloud {
+    -webkit-font-smoothing:antialiased;
+    font-size:80px;
+    font-weight:bold;
+    padding:0;
+    margin:0;
+    font-size:30px;
+}
+
+.navbar-logo > .nine {
+    font-size:40px;
+    margin:0;
+    padding:0;
+    font-size:16px;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-logo > .clinic {
+    -webkit-font-smoothing:antialiased;
+    font-size:80px;
+    font-weight:bold;
+    padding:0;
+    margin:0;
+    font-size:30px;
+    text-align: center;
+}
