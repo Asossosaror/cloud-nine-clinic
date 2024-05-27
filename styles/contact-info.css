@@ -1,0 +1,75 @@
+/* Address and Email */
+.contact-info {
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    font-family:Felix,sans-serif;
+    color:#d6cdcb;
+    position:absolute;
+    bottom:0;
+}
+
+@media (min-width: 576px) {
+    .contact-info {
+        bottom:10%;
+    }
+}
+
+.contact-info a, .contact-info p {
+    display:inherit;
+    color:inherit;
+    text-decoration:inherit;
+    margin:inherit;
+    padding:inherit;
+    padding:4px;
+    font-size:12px;
+}
+
+@media (min-width: 576px) {
+    .contact-info a,.contact-info p {
+        font-size:16px;
+    }
+}
+
+/* Social media icons */
+a.social-icon {
+    display:inline-block;
+    width:50px;
+    height:50px;
+    position:relative;
+    overflow:hidden;
+    vertical-align:middle;
+}
+
+.social-container {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.social-svg {
+    border-radius:50%;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    fill-rule:evenodd;
+}
+
+.social-svg-background {
+    transition:fill 170ms ease-in-out;
+    fill:transparent;
+}
+
+.social-svg-icon {
+    transition:fill 170ms ease-in-out;
+    fill:#D6CDCB;
+}
+
+.social-svg-mask {
+    transition:fill 170ms ease-in-out;
+    fill:transparent;
+}
