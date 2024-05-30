@@ -1,7 +1,6 @@
 header {
     width:100%;
     color:#D6CDCB;
-    -webkit-transition:all 0.3s ease-in-out;
     transition:all 0.3s ease-in-out;
     position:absolute;
     top:0;
@@ -17,6 +16,12 @@ header {
 
 .navbar-logo {
     width: fit-content;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out 0s;
+    color: rgb(155, 127, 121); */
 }
 
 .navbar-logo > .cloud {

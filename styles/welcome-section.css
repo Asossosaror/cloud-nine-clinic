@@ -1,0 +1,56 @@
+#about, #contact {
+    position:absolute;
+    top:-100px;
+    display:block;
+}
+
+.text-section {
+    position: relative;
+}
+
+#welcome-section {
+    display:flex;
+    position:relative;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    background-color:rgba(108,89,85,0.1);
+    color:#9B7F79;
+    min-height: 100vh;
+    background-color:rgba(177,155,150,0.5);
+}
+
+#welcome-section > h1 {
+    font-family:'Felix',sans-serif;
+    font-size:30px;
+    max-width:70%;
+    text-align:center;
+}
+
+#welcome-section > .long-text {
+    font-family:'Roboto';
+    font-size:18px;
+    font-weight:normal;
+    max-width:70%;
+    text-align:center;
+}
+
+#welcome-section > .fancy-text {
+    font-family:'Nice Day', sans-serif;
+    text-align:center;
+    font-size:15px;
+    padding: 16px 0;
+}
+
+@media (min-width: 768px) {
+    #welcome-section > .fancy-text {
+        font-size:16px;
+    }
+}
+
+@media (min-width: 768px) {
+    #welcome-section > .fancy-text {
+        font-size:16px;
+    }
+}
