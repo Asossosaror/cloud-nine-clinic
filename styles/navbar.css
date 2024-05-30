@@ -1,4 +1,4 @@
-header {
+/* header {
     width:100%;
     color:#D6CDCB;
     transition:all 0.3s ease-in-out;
@@ -12,16 +12,57 @@ header {
     align-items: center;
     z-index:100;
     font-family:'Felix', sans-serif;
+} */
+
+header {
+    width: 100%;
+    color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 0;
+    position: fixed;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    z-index: 100;
+}
+
+header.scrolled {
+    width: 100%;
+    transition: all 0.3s ease-in-out 0s;
+    top: 0px;
+    position: fixed;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    -webkit-box-align: center;
+    align-items: center;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(155, 127, 121);
+    backdrop-filter: blur(10px);
 }
 
 .navbar-logo {
-    width: fit-content;
+    font-family: 'Felix', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out 0s;
     /* display: flex;
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
     transition: all 0.3s ease-in-out 0s;
     color: rgb(155, 127, 121); */
+}
+
+.navbar-logo.scrolled {
+    color: rgb(155, 127, 121);
 }
 
 .navbar-logo > .cloud {
