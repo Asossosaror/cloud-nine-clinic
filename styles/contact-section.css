@@ -112,6 +112,28 @@
     left: auto;
 }
 
+@media(min-width: 768px) {
+    #contact-section #people-container {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    #contact-section > .outer-container > div {
+        max-width: 750px;
+    }
+    
+    #map-container {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media(min-width: 1024px) {
+    #contact-section > .outer-container > div {
+        max-width: 950px;        
+    }
+}
+
 #map-container > .map-iframe {
     border-radius:10px;
     position:relative;
